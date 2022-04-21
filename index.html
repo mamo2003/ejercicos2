@@ -8,10 +8,12 @@
 </head>
 <body>
 <header>
-<img src="./image/PIRELI5.jpg" alt="logoneumaticos"><H1>Pagina Neumaticos</H1>
-<a href="/index.html"target="_blank">HOME</a>  <a href="datostitular.html" alt="_blank">Quienes Somos</a>
+<h1><img src="./image/PIRELI5.jpg" alt="logoneumaticos" width="50" height="50">Pagina Neumaticos</h1>
+<NAV>
+<a href="/index.html"target="_blank">Home</a>  |
+<a href="datostitular.html" alt="_blank">Quienes Somos</a>  |
 <a href="#id">contactanos</a>
-
+</NAV>
 </header>
 <main>
  <h1>Pagina Neumaticos</h1>
@@ -24,22 +26,40 @@
  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem nisi iure natus doloremque perferendis repellendus molestias rem, minima doloribus officia cumque, hic explicabo inventore, dolorum accusantium mollitia. Amet, praesentium.</p>
  <br>
  <form action="formulario">
-     <a id="id">id</a>
+     <a id="id"></a>
     <Label for="nombre"><b>Nombre:</b></Label><input type="text"name="nombre" placeholder= "ingresa tu nombre"></br>
     <br>
     <Label for="apellido"><b>Apellido:</b></Label><input type="text"name="apellido"placeholder= "ingresa tu apellido"><br>
     <br>
-    <Label for="country"><b>Pais:</b></Label><input type="checkbox" select name=”País”><option>argentina</option><option>chile</option><option>Uganda</option><option>España</option></select>name="pais">
-    <br>Ingresa tu comentario:</br>
-         <textarea name="comentario" rows="5" cols="120"></textarea></p>
-
+    Seleccione su pais: <select name="pais">    
+    <option value="1">Argentina</option>
+    <option value="2">España</option>
+    <option value="3">México</option>
+    <option value="4">Guatemala</option>
+    <option value="5">Honduras</option>
+    <option value="6">El Salvador</option>
+    <option value="7">Venezuela</option>
+    <option value="8">Colombia</option>
+    <option value="9">Cuba</option>
+    <option value="10">Bolivia</option>
+    <option value="11">Ecuador</option>
+    <option value="12">Uruguay</option>
+    </select>
+    <br>
+    <br>
+    <textarea name="comentario" rows="8" cols="100"></textarea></p>
+    <br>
     <input type="submit" value="Enviar formulario"  formaction="/respuestacontacto.html"/>
     <input type="reset" value="Borrar formulario"/>
 </form>
 </main> 
 <footer>
-    <p>Derechos reservados al autor</p>
-    <a href=»mailto:mlarraniaga1978@gmail.com»>mail institucional   </a>
+<p>Derechos reservados al autor</p>
+<br>
+<br>
+<a href=»mailto:mlarraniaga1978@gmail.com»>Correo Institucional</a>
+<br>
+<br>
 </footer>
 </body>
 </html>
